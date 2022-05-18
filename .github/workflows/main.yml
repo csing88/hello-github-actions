@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: csing88/hello-github-actions./action-a@v2
+      - uses: ./action-a
         with:
           MY_NAME: "Mona"
